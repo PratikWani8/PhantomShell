@@ -33,7 +33,7 @@ PhantomShell observes explicitly enabled operating-system activity (process appe
 
 - **No Hallucinations as Evidence**: Detection rules and risk scores are 100% mathematical and explainable. The LLM cannot alter risk scores or invent malware.
 - **Zero Cloud Telemetry**: All telemetry, rule calculations, prompt synthesis, and weights remain strictly on the user's local machine (`127.0.0.1`).
-- **Resilient Fallback**: If Ollama is offline or uninstalled, the entire application—including detection, event history, risk scoring, and atmospheric Ghost explanations—continues functioning via the built-in deterministic fallback engine.
+- **Resilient Fallback**: If Ollama is offline or uninstalled, the entire application including detection, event history, risk scoring, and atmospheric Ghost explanations continues functioning via the built-in deterministic fallback engine.
 
 ---
 
