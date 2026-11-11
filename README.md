@@ -60,7 +60,7 @@ PhantomShell demonstrates an alternative paradigm:
 ```
 +---------------------------------------------------------------------------------------+
 |                                    OPERATING SYSTEM                                   |
-|   - psutil Process Snapshotter  •  watchdog Filesystem Monitor  •  Constrained Console |
+|  - psutil Process Snapshotter  •  watchdog Filesystem Monitor  •  Constrained Console |
 +-------------------------------------------+-------------------------------------------+
                                             |
                                             v
@@ -75,7 +75,7 @@ PhantomShell demonstrates an alternative paradigm:
 |   1. RULE_UNUSUAL_PROCESS      (Flagged offensive binaries like nc, mimikatz)         |
 |   2. RULE_WORKSPACE_BOUNDARY   (Path escape or out-of-bounds traversal attempt)       |
 |   3. RULE_FILE_BURST           (Rapid file modification spike in sliding window)      |
-|   4. RULE_SENSITIVE_PATH       (Probes against .ssh, .env, id_rsa, AWS credentials)  |
+|   4. RULE_SENSITIVE_PATH       (Probes against .ssh, .env, id_rsa, AWS credentials)   |
 |   5. RULE_FAILED_OPERATIONS    (Burst of blocked or rejected security actions)        |
 |   6. RULE_UNUSUAL_PARENT_CHILD (Conservative process tree anomaly detection)          |
 +-------------------------------------------+-------------------------------------------+
@@ -102,14 +102,14 @@ PhantomShell demonstrates an alternative paradigm:
                                             v
 +---------------------------------------------------------------------------------------+
 |                               FASTAPI REST & WEBSOCKET HUB                            |
-|   - Strict Localhost Binding (127.0.0.1)  •  WebSocket Stream /ws/events               |
+|   - Strict Localhost Binding (127.0.0.1)  •  WebSocket Stream /ws/events              |
 |   - Constrained Read-Only Agent Harness (5 safe inspection tools)                     |
 +-------------------------------------------+-------------------------------------------+
                                             |
                                             v
 +---------------------------------------------------------------------------------------+
 |                             REACT + VITE + TAILWIND FRONTEND                          |
-|   - Overview Dashboard  •  Haunted Terminal  •  Event Timeline  •  Incident Inspector  |
+|   - Overview Dashboard  •  Haunted Terminal  •  Event Timeline  •  Incident Inspector |
 |   - Deterministic Rules View  •  AI Investigator Q&A  •  CRT & Web Audio Controls     |
 +---------------------------------------------------------------------------------------+
 ```
